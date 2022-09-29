@@ -1,0 +1,24 @@
+{
+  "exhibits": [
+    {
+      "name": "French Artists",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "thumbnail": "../img/french-art.jpg"
+    },
+    {
+      "name": "The Great Depression",
+      "description": "Artists working in the Federal Arts Project and for other Works Progress Administration agencies created prints, easel paintings, drawings, and photographs. Public murals were painted for display in post offices, schools, airports, housing developments, and other government buildings. Community art centers hosted exhibitions of work made by artists employed in government programs and offered hands-on workshops, led by artists, for everyone. Illustrators made detailed drawings that cataloged the physical culture and artifacts of American daily life - clothing, tools, household items. The WPA intentionally seeded arts programs and supported artists outside of urban centers. In so doing, it introduced the arts to a much more diverse swath of Americans, many of whom had previously never seen an original painting or work of art, had not met a professional artist, nor experimented with art making.",
+      "thumbnail": "../img/great-depression.jpg"
+    },
+    {
+      "name": "Futurism",
+      "description": "Futurism was an Italian art movement of the early 20th century, which aimed to capture the dynamism and energy of the modern world in art.",
+      "thumbnail": "../img/futurism.jpg"
+    },
+    {
+      "name": "Skyscrapers Around the World",
+      "description": "This exhibit examines contemporary works of art that take as their subject the form, technology, myth, message, and image of that iconic building structure: the skyscraper. While the exhibition has particular relevance to Chicago - the city that is widely known as the birthplace of this architectural type - artists throughout the world, in addition to authors, filmmakers, poets, and undoubtedly architects, have been enthralled by the human desire to build farther and farther into the sky, testing technological limits while embodying a yearning for spiritual connection to the heavens.",
+      "thumbnail": "../img/skyscrapers.jpg"
+    }
+  ]
+}

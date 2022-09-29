@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+body {
+    background-color: #000000;
+}
+h1 {
+    font-size: calc(3rem + 6*(100vw - 375px)/1065);
+}
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+p, li {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    border-radius:0px;
+}
+input {
+    border:1px;
+}
+.content {
+    /*width:100%;
+    max-width:1000px; */
+    margin: 0 auto;
+    animation: fadeIn 1s;
+    background-color: #ffffff;
+}
+.intro {
+    text-align: center;
+    padding: 80px 0px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 268px);
+}
+.home .intro {
+    min-height: 500px;
+    background: linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url(../img/home-hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.visit .intro {
+    min-height: 300px;
+    background: linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url(../img/visit-hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.exhibits .intro {
+    min-height: 300px;
+    background: linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url(../img/exhibits-hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.membership .intro {
+    min-height: 300px;
+    background: linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url(../img/membership-hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro-content {
+    max-width: 60vw;
+    width: 100%;
+    margin: 0 auto;
+}
+.lead {
+    text-align:center;
+}
+.body-content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 50vw;
+    padding: 20px 0px;
+}
+.exhibits img {
+    max-width:500px;
+    width:100%;
+}
+
+.exhibits-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+    .exhibits-list .exhibits-row {
+        display: flex;
+        flex-direction: row;
+        padding:40px 0px;
+        border-bottom-color: #000000;
+        border-bottom-style: inset;
+    }
+    .exhibits-list div {
+        gap: 40px;
+    }
+    .exhibits-list .exhibits-row #thumbnail {
+        flex: 0 0 40%;
+    }
+.exhibits-list .exhibits-row #info {
+        flex: 0 0 60%;
+}
+.membership-descriptions {
+    padding:40px 0px;
+}
+
+footer {
+    background-color: #cfcfcf;
+    padding: 40px 0px;
+    text-align: center;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

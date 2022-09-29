@@ -1,0 +1,28 @@
+{{define "content"}}
+<div class="home">
+    <div class="intro">
+        <div class="intro-content">
+            <h1>{{.PageName}}</h1>
+            <p class="lead">
+                {{.PageContent}}
+            </p>
+        </div>
+    </div>
+    <div class="body-content">
+        <center>
+            <h3>Today is {{.Date}}.</h3>
+            <h4>We are {{.OpenToday}} today.</h4>
+            <h6 class="display-6">Hours</h6>
+            <p>
+                Monday: Closed<br />
+                Tuesday: Closed<br />
+                Wednesday: 10am-5pm<br />
+                Thursday: 10am-5pm<br />
+                Friday: 10am-7pm<br />
+                Saturday: 10am-7pm<br />
+                Sunday: 10am-5pm<br />
+            </p>
+        </center>
+    </div>
+</div>
+{{end}}

@@ -1,0 +1,57 @@
+{{define "content"}}
+<div class="membership">
+    <div class="intro">
+        <h1>{{.PageName}}</h1>
+    </div>
+    <div class="body-content">
+        <p class="lead">{{.PageContent}}</p>
+        <form action="/confirmation" method="post">
+            <div class="mb-3">
+                <label class="form-label" for="fname">First name:</label><br />
+                <input type="text" id="fname" name="FirstName" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="fname">Last name:</label><br />
+                <input type="text" id="lname" name="LastName" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="email">Email:</label><br />
+                <input type="email" id="email" name="Email" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="membershiplevel">Membership Level:</label><br />
+                <select id="membershiplevel" name="MembershipLevel" class="form-control">
+                    <option value="Individual">Individual ($100/year)</option>
+                    <option value="Patron">Patron ($1,000/year)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+        <div class="membership-descriptions">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Individual</h3>
+                    <h4>$100/year</h4>
+                    <h5>Benefits</h5>
+                    <ul>
+                        <li>Free admission for a full year</li>
+                        <li>Discounted tickets for two guests per visit</li>
+                        <li>Expedited check-in</li>
+                        <li>Discounts on special events and merchandise</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Patron</h3>
+                    <h4>$1,000/year</h4>
+                    <h5>Benefits</h5>
+                    <ul>
+                        <li>All the benefits from the Individual tier</li>
+                        <li>Priority ticketing for members-only events</li>
+                        <li>Invitation to annual reception</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}

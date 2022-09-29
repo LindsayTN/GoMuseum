@@ -1,0 +1,16 @@
+{{define "content"}}
+<div class="visit">
+    <div class="intro">
+        <div class="intro-content">
+            <h1>{{.PageName}}</h1>
+            </div>
+     </div>
+        <div class="body-content">
+            <p class="lead">{{.PageContent}}</p>
+            <h1 class="display-5">Tickets</h1>
+            <p>Tickets are currently ${{.VisitVariables.TicketPrice}} and can be purchased at the door.</p>
+            <h1 class="display-5">Address</h1>
+            <p>Our address is {{.VisitVariables.Address}}</p>
+        </div>
+    </div>
+{{end}}
